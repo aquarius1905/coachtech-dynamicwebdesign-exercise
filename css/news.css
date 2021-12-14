@@ -1,0 +1,27 @@
+.news {
+  padding: 80px 0;
+  width: 75%;
+  margin: 0 auto;
+}
+.news-item:not(:first-child) {
+  margin-top: 10px;
+}
+.news-item-link {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  border: 1px solid #222;
+  padding: 20px;
+}
+.news-item-link:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.news-item-date {
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .news {
+    width: 90%;
+  }
+}

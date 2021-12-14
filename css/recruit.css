@@ -1,0 +1,36 @@
+.recruit {
+  padding: 80px 0;
+  width: 75%;
+  margin: 0 auto;
+}
+.recruit-ttl {
+  font-size: 26px;
+  border-bottom: 1px solid #222;
+}
+.recruit-txt {
+  margin-top: 20px;
+}
+.recruit-tbl {
+  width: 100%;
+  border: 1px solid #222;
+  margin-top: 20px;
+}
+.recruit-tbl-header {
+  background-color: #f5f6f9;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  padding: 10px;
+}
+.recruit-tbl-data {
+  padding: 10px;
+  border-top: 1px solid #222;
+  width: 70%;
+}
+.recruit-mid-career {
+  margin-top: 80px;
+}
+@media screen and (max-width: 768px) {
+  .recruit {
+    width: 90%;
+  }
+}

@@ -1,0 +1,35 @@
+.service {
+  padding: 80px 0;
+  width: 85%;
+  margin: 0 auto;
+}
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  border-top: 1px solid #222;
+}
+.service-item:last-child {
+  border-bottom: 1px solid #222;
+}
+.service-item-img {
+  width: 290px;
+}
+.service-item-img img {
+  width: 100%;
+}
+.service-item-detail {
+  width: calc(100% - 330px);
+}
+.service-item-ttl {
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+  .service-item-img {
+    width: 100%;
+  }
+  .service-item-detail {
+    width: 100%;
+  }
+}

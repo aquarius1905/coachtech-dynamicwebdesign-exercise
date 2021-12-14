@@ -1,0 +1,23 @@
+.comapny {
+  padding: 80px 0;
+  width: 75%;
+  margin: 0 auto;
+}
+.company-tbl {
+  width: 100%;
+  border-bottom: 1px solid #222;
+}
+.company-tbl-header {
+  border-top: 1px solid #222;
+  width: 30%;
+  padding: 20px 0;
+}
+.company-tbl-data {
+  border-top: 1px solid #222;
+  padding: 20px 0;
+}
+@media screen and (max-width: 768px) {
+  .comapny {
+    width: 90%;
+  }
+}
